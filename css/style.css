@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+.flex{
+    display:flex;
+}
+
+a,a:hover,a:focus{
+    text-decoration:none;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.col-6:{
+    width:50%;
+
+}
+
+.col-3{
+    width:25%;
+}
+.col-4{
+    width:33%;
+}
+
+.col-2{
+    width:16%;
+}
+.col-1{
+    width:12%;
+}
+
+p{
+    font-size:1rem;
+    margin-bottom: 1rem;
+}
+
+img{
+    max-width:100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+   padding: 8px 20px;
+    display: inline-block;
+    background-color: #21B573;
+    border:1px solid #21B573;
+    border-radius: 20px;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.btn:hover,
+.btn:focus
+{
+    background-color: white;
+    color:#21B573;
+    border:1px solid #21B573;
+
+}
+
+/****************banner section**********/
+
+.banner-section{
+    background-color: #F0FFF0;
+}
+
+header{}
+
+nav{
+    justify-content: space-between;
+    padding: 1.3rem 0 1.2rem;
+    align-items: center;
+}
+.logo{
+    width:15%;
+} 
+.logo a{}
+
+nav ul {
+    width:85%;
+    justify-content: flex-end;
+}
+nav ul li{
+    margin-left: 2rem;
+}
+nav ul li a{}
+
+.header-info{
+    
+align-items: center;
+    
+padding: 3rem 0rem;
+}
+
+.title{
+    width: 50%;
+    padding-right:20px;
+}
+.title h1{
+    color:#FD511A;
+    margin-bottom:1rem;
+    font-size: 1rem;
+}
+.title h2{
+    font-size:4rem;
+    color:#000;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.title h2 span{
+   
+    color:#21B573;
+}
+.title p{
+    margin-bottom:2rem;
+    line-height: 2;
+}
+title a{}
+
+.banner-pic{
+    width: 50%;
+}
+.banner-pic img{}
+
+
+/*********feature section*********/
+.feaure-section{
+    margin: 3rem 0rem;
+}
+
+.feature-info{
+   margin:0 auto;
+   text-align: center;
+}
+
+.feature-card-container{
+    /* padding: 10px; */
+}
+
+.feature-card{
+   background-color:#F0FFF0;
+   margin:10px;
+   padding: 30px;
+   transition-duration: 0.3s;
+   
+}
+
+.feature-card:hover{
+    background: white;
+    box-shadow: 0px 4px 10px 4px #f5f2f2;
+}
+
+
+
+.feature-card img{
+     height:8rem;
+     margin-bottom:1rem;
+
+}
+.feature-card h4{
+    font-size:1.5rem;
+    margin-bottom:0.5rem;
+    color:#413960;
+
+}
+.feature-card p{
+    font-size: 1rem;
+    color:#8D8D8D;
+}
+
+/*******online courses**********/
+
+.heading{
+    margin:5rem 0;
+    text-align: center;
+    font-size:2rem;
+}
+
+.courses {
+
+}
+.courses-container{
+    display: flex;
+    justify-content: space-between;
+}
+.courses-card{
+ 
+   padding:20px;
+   box-shadow: 0px 0px 19px 1px #a79898;
+   margin:20px;
+   border-radius: 10px;;
+}
+
+
+.courses-card .card-img{
+    width:100%;
+     margin-bottom: 1rem;
+}
+
+
+.courses-card h3{
+     margin-bottom: 1rem;
+
+}
+.courses-card p{
+     margin-bottom: 1rem;
+}
+.courses-card a{
+    margin-bottom: 1.8rem;
+}
+.courses-card ul{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.courses-card ul li{}
+
+.icon-image{
+      margin-bottom: 1rem;
+}
+
+.courses-card .icon-image img{
+    height:1rem;
+  
+}
+
+
+/**********Testimonial section*******/
+
+.testimonial{
+    margin:5rem 0rem;
+}
+
+.testimonial-container{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.clint-image{
+    margin-right: 2rem;
+}
+.clint-image img{}
+
+.testimonial-text{
+    margin-left:2rem;
+}
+.testimonial-tex p{}
+
+
+/********main footer section******/ 
+
+.main-footer{
+    background-color: #282531;
+    color:white;
+    padding:3rem 0 2rem 0;
+}
+
+
+.main-footer a{
+    color:white;
+    transition-duration: 0.3s;
+}
+
+.main-footer a:hover,
+.main-footer a:focus{
+    color:#21B573;
+}
+
+
+
+
+
+.main-footer-container{
+    justify-content: space-between;
+}
+
+.footer-msg h5{
+	font-size:1rem;
+}
+
+.site-links{
+    justify-content: space-between;
+}
+
+.site-links li{
+    margin-bottom:5px;
+}
+
+.copyright{
+    text-align: center;
+    margin-top:3rem;
+}
+
+.copyright h6{
+	font-size:0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
